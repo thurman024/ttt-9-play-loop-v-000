@@ -41,4 +41,5 @@ def play(board)
   until number_moves == 10
     turn(board)
     number_moves += 1
+  end
 end
